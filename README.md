@@ -16,6 +16,17 @@ There are 5 steps to connect any java application with the database using JDBC. 
 ### 1) Register the driver class
 The forName() method of Class class is used to register the driver class. This method is used to dynamically load the driver class.
 
-##### Syntax of forName() method
+#### Syntax of forName() method
 
 public static void forName(String className)throws ClassNotFoundException
+
+### 2) Create the connection object
+
+The getConnection() method of DriverManager class is used to establish connection with the database.
+
+#### Syntax of getConnection() method
+
+1) public static Connection getConnection(String url)throws SQLException
+  
+3) public static Connection getConnection(String url,String name,String password)  
+throws SQLException
