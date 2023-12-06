@@ -3,12 +3,19 @@ JDBC stands for Java Database Connectivity. JDBC is a Java API to connect and ex
 ## Java Database Connectivity with 5 Steps
 There are 5 steps to connect any java application with the database using JDBC. These steps are as follows:
 
-Register the Driver class
+1-Register the Driver class
 
-Create connection
+2-Create connection
 
-Create statement
+3-Create statement
 
-Execute queries
+4-Execute queries
 
-Close connection
+5-Close connection
+
+### 1) Register the driver class
+The forName() method of Class class is used to register the driver class. This method is used to dynamically load the driver class.
+
+Syntax of forName() method
+
+public static void forName(String className)throws ClassNotFoundException
