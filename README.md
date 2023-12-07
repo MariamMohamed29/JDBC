@@ -59,3 +59,5 @@ By closing connection object statement and ResultSet will be closed automaticall
 
 public void close()throws SQLException
 } 
+
+# To connect java application with the mysql database, mysqlconnector.jar file is required to be loaded.
