@@ -61,3 +61,9 @@ public void close()throws SQLException
 } 
 
 ## To connect java application with the mysql database, mysqlconnector.jar file is required to be loaded.
+
+### Connection interface
+
+A Connection is a session between a Java application and a database. It helps to establish a connection with the database.
+
+The Connection interface is a factory of Statement, PreparedStatement, and DatabaseMetaData, i.e., an object of Connection can be used to get the object of Statement and DatabaseMetaData. The Connection interface provide many methods for transaction management like commit(), rollback(), setAutoCommit(), setTransactionIsolation(), etc.
